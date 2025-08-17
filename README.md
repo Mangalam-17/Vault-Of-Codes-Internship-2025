@@ -105,3 +105,5 @@ This is an Interactive Resume Builder that allows users to input personal inform
 ### Interactive Form and Resume Preview
 
 ![Filled Resume Example](https://github.com/Mangalam-17/Interactive-Resume-Builder/blob/6dd598d35293373f7c5df0b4329ea0c03bc909c4/Screenshots/filledform.png)
+
+Live Demo -> https://mangalam-17.github.io/Interactive-Resume-Builder/
