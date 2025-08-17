@@ -70,6 +70,8 @@ Zoomed sections one by one ->
 
 An intuitive, responsive web application for creating and previewing a professional resume interactively. Users can fill out their information, add multiple education and experience entries, and see a real-time preview of the resume. The app includes a downloadable PDF feature and a dynamic progress bar for enhanced user engagement.
 
+Live Demo -> https://mangalam-17.github.io/Interactive-Resume-Builder/
+
 ---
 
 ## Features
@@ -112,4 +114,3 @@ An intuitive, responsive web application for creating and previewing a professio
 
 ![Filled Resume Example](https://github.com/Mangalam-17/Interactive-Resume-Builder/blob/6dd598d35293373f7c5df0b4329ea0c03bc909c4/Screenshots/filledform.png)
 
-Live Demo -> https://mangalam-17.github.io/Interactive-Resume-Builder/
