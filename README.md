@@ -64,6 +64,12 @@ Zoomed sections one by one ->
 ![Footer Section](https://github.com/Mangalam-17/Portfolio-Website/blob/d09d9766c17b66253168dd3ac70221e70b0df284/Screenshots/Footer.png)
 
 
+
+
+
+
+
+
 --------------------------------------------------------------------------------
 
 # Interactive Resume Builder
