@@ -27,6 +27,7 @@ August 2025
 - VS Code
 
 ## Assignment 1 : Personal Portfolio Website
+#### Built using HTML and CSS
 
 Live Demo -> https://mangalam-17.github.io/Portfolio-Website/
 
@@ -63,6 +64,7 @@ Zoomed sections one by one ->
 ![Footer Section](https://github.com/Mangalam-17/Portfolio-Website/blob/d09d9766c17b66253168dd3ac70221e70b0df284/Screenshots/Footer.png)
 
 # Interactive Resume Builder
+#### Built using HTML, CSS and JavaScript
 
 ## Overview
 
