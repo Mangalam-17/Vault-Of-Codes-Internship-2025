@@ -136,11 +136,11 @@ _(To preview, open `index.html` in your browser after downloading both files)_
 ### Screenshots of Preview - 
 
 ### Main page
-![Main Page Screenshot](https://github.com/Mangalam-17/Interactive-Resume-Builder/blob/6dd598d35293373f7c5df0b4329ea0c03bc909c4/Screenshots/lightmode.png)
+![Main Page Screenshot](https://github.com/Mangalam-17/Vault-Of-Codes-Internship-2025/blob/c4f061d68a01fdefdb5faa0159f161d9fb8aaf41/Assignment-3/ScreenShots/mainPage.png)
 
 ### Example.com page
 
-![Example.com Screenshot](https://github.com/Mangalam-17/Interactive-Resume-Builder/blob/6dd598d35293373f7c5df0b4329ea0c03bc909c4/Screenshots/lightmode.png)
+![Example.com Screenshot](https://github.com/Mangalam-17/Vault-Of-Codes-Internship-2025/blob/c4f061d68a01fdefdb5faa0159f161d9fb8aaf41/Assignment-3/ScreenShots/examplePage.png)
 
 
 
