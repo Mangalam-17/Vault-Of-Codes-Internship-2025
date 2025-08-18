@@ -68,7 +68,7 @@ Zoomed sections one by one ->
 
 ---
 
-##  Interactive Resume Builder
+##  Assignment 2: Interactive Resume Builder
 
 ### Built using HTML, CSS and JavaScript
 
