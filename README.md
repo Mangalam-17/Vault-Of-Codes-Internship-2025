@@ -152,12 +152,15 @@ _(To preview, open `index.html` in your browser after downloading both files)_
 
 This file contains the markup for the internship cards and general page layout.
 
+
+## 📄 style.css
 🚩 Style Highlights
 • Box shadows, rounded corners for a modern card look.
 • Grid layout automatically arranges internship cards side by side.
 • Hover effects make cards and buttons interactive and visually appealing.
 • Responsive up to 2 columns—you can tweak for mobile layouts if desired.
-🌐 Why Use example.com?
+
+### 🌐 Why Use example.com?
 `example.com` is a domain reserved for documentation and demonstration.
 It’s safe and guaranteed not to be a real company or page.
 Important:
@@ -166,7 +169,8 @@ Important:
 References:
 • IANA Reserved Domains: example.com, example.net, and example.org are reserved by the Internet Assigned Numbers Authority for documentation purposes.
 🚀 How to Use 1. Download both `index.html` and `style.css` in the same directory. 2. Open `index.html` in your preferred browser. 3. Edit the file to update internship details, add your own button links, or tweak styles as needed.
-📝 Customization Tips
+
+### 📝 Customization Tips
 • To add more internships, copy-paste the div with class `"card"`.
 • Change colors and fonts in the CSS file to suit your brand.
 • For actual deployment, update the button URLs for each internship.
