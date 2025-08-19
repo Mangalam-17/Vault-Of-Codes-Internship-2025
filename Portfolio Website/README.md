@@ -1,6 +1,5 @@
-## Assignment 1 : Personal Portfolio Website
-
-### Built using HTML and CSS
+## Personal Portfolio Website
+### Built using pure HTML and CSS
 
 Live Demo -> https://mangalam-17.github.io/Portfolio-Website/
 

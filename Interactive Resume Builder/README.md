@@ -1,4 +1,4 @@
-## Assignment 2: Interactive Resume Builder
+## Interactive Resume Builder
 
 ### Built using HTML, CSS and JavaScript
 
