@@ -121,8 +121,6 @@ An intuitive, responsive web application for creating and previewing a professio
 
 ---
 
----
-
 ### Assignment 3 - Designing a grid like structured page
 
 Welcome! This repo contains a clean, modern internship listing page inspired by VaultofCodes.  
