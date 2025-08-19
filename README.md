@@ -1,21 +1,21 @@
-# Internship at [Vault_Of_Codes] (August 2025)
+## Internship at [Vault_Of_Codes] (August 2025)
 
-## Web Development Intern
+### Web Development Intern
 
 This repository contains all the web dev assignments, coding practice, completed during my internship at **[Vault Of Codes]**.
 
-## 🔍 Contents
+### 🔍 Contents
 
 - Web Development Assignments
 - Mern Stack Development
 - Full Stack Development
 - Internship milestone submissions
 
-## 🚧 Purpose
+### 🚧 Purpose
 
 To document my learning journey, improve my skills through assigned tasks, and maintain a clean, version-controlled record of my progress.
 
-## 📅 Internship Duration
+### 📅 Internship Duration
 
 August 2025
 
@@ -26,13 +26,13 @@ August 2025
 - Git & GitHub
 - VS Code
 
-## Assignment 1 : Personal Portfolio Website
+### Assignment 1 : Personal Portfolio Website
 
-### Built using HTML and CSS
+#### Built using HTML and CSS
 
 Live Demo -> https://mangalam-17.github.io/Portfolio-Website/
 
-### Screenshots 👁️‍🗨️
+#### Screenshots 👁️‍🗨️
 
 In a single page ->
 
@@ -68,19 +68,19 @@ Zoomed sections one by one ->
 
 ---
 
-## Assignment 2: Interactive Resume Builder
+#### Assignment 2: Interactive Resume Builder
 
-### Built using HTML, CSS and JavaScript
+##### Built using HTML, CSS and JavaScript
 
-### Overview
+##### Overview
 
 An intuitive, responsive web application for creating and previewing a professional resume interactively. Users can fill out their information, add multiple education and experience entries, and see a real-time preview of the resume. The app includes a downloadable PDF feature and a dynamic progress bar for enhanced user engagement.
 
-#### Live Demo -> https://mangalam-17.github.io/Interactive-Resume-Builder/
+##### Live Demo -> https://mangalam-17.github.io/Interactive-Resume-Builder/
 
 ---
 
-#### Features
+##### Features
 
 - **Responsive UI:** Clean, minimalistic design adaptable to various screen sizes.
 - **Live Resume Preview:** Updates in real-time as the user fills out the form.
@@ -92,7 +92,7 @@ An intuitive, responsive web application for creating and previewing a professio
 
 ---
 
-#### How to Use
+##### How to Use
 
 1. Open `index.html` in any modern web browser.
 2. Fill out the personal information fields (name, phone, email, summary).
@@ -105,17 +105,17 @@ An intuitive, responsive web application for creating and previewing a professio
 9. Use the **Clear Form** button to reset everything.
 10. Toggle dark mode with the switch in the header.
 
-#### Screenshots Preview
+##### Screenshots Preview
 
-##### Light Mode
+###### Light Mode
 
 ![Light Mode Screenshot](https://github.com/Mangalam-17/Interactive-Resume-Builder/blob/6dd598d35293373f7c5df0b4329ea0c03bc909c4/Screenshots/lightmode.png)
 
-##### Dark Mode
+###### Dark Mode
 
 ![Dark Mode Screenshot](https://github.com/Mangalam-17/Interactive-Resume-Builder/blob/6dd598d35293373f7c5df0b4329ea0c03bc909c4/Screenshots/darkmode.png)
 
-##### Interactive Form and Resume Preview
+###### Interactive Form and Resume Preview
 
 ![Filled Resume Example](https://github.com/Mangalam-17/Interactive-Resume-Builder/blob/6dd598d35293373f7c5df0b4329ea0c03bc909c4/Screenshots/filledform.png)
 
@@ -123,14 +123,14 @@ An intuitive, responsive web application for creating and previewing a professio
 
 ---
 
-## Assignment 3 - Designing a grid like structured page
+### Assignment 3 - Designing a grid like structured page
 
 Welcome! This repo contains a clean, modern internship listing page inspired by VaultofCodes.  
 It’s built using HTML and CSS only, no navbars or footers required.
 
-#### Live Demo -> https://mangalam-17.github.io/Internship-Dashboard/
+##### Live Demo -> https://mangalam-17.github.io/Internship-Dashboard/
 
-### 📷 Page Overview
+#### 📷 Page Overview
 
 The page features:
 
@@ -138,21 +138,21 @@ The page features:
 - Four internship cards in a responsive grid
 - Each card shows internship details and a "View Details" button
 
-### 💻 Live Preview
+#### 💻 Live Preview
 
 _(To preview, open `index.html` in your browser after downloading both files)_
 
-### Screenshots of Preview -
+#### Screenshots of Preview -
 
-### Main page
+##### Main page
 
 ![Main Page Screenshot](https://github.com/Mangalam-17/Vault-Of-Codes-Internship-2025/blob/c4f061d68a01fdefdb5faa0159f161d9fb8aaf41/Assignment-3/ScreenShots/mainPage.png)
 
-### Example.com page
+##### Example.com page
 
 ![Example.com Screenshot](https://github.com/Mangalam-17/Vault-Of-Codes-Internship-2025/blob/c4f061d68a01fdefdb5faa0159f161d9fb8aaf41/Assignment-3/ScreenShots/examplePage.png)
 
-### ✨ Features
+##### ✨ Features
 
 - Minimal and readable layout
 - Responsive design with CSS grid
@@ -162,11 +162,11 @@ _(To preview, open `index.html` in your browser after downloading both files)_
 
 ---
 
-### 📄 index.html
+##### 📄 index.html
 
 - This file contains the markup for the internship cards and general page layout.
 
-### 📄 style.css
+##### 📄 style.css
 
 🚩 Style Highlights
 
@@ -175,32 +175,32 @@ _(To preview, open `index.html` in your browser after downloading both files)_
 - Hover effects make cards and buttons interactive and visually appealing.
 - Responsive up to 2 columns—you can tweak for mobile layouts if desired.
 
-#### 🌐 Why Use example.com?
+##### 🌐 Why Use example.com?
 
 - `example.com` is a domain reserved for documentation and demonstration.
 - It’s safe and guaranteed not to be a real company or page.
 
-#### Important:
+##### Important:
 
 - Replace `https://example.com` in your code with your actual internship page/app link when you deploy.
 - Using `example.com` ensures your demo won’t mislead users or redirect them to unintended sites!
 
-#### References:
+##### References:
 
 - IANA Reserved Domains: example.com, example.net, and example.org are reserved by the Internet Assigned Numbers Authority for documentation purposes.
 
-#### 🚀 How to Use
+##### 🚀 How to Use
 
 - 1. Download both `index.html` and `style.css` in the same directory.
 - 2. Open `index.html` in your preferred browser.
 - 3. Edit the file to update internship details, add your own button links, or tweak styles as needed.
 
-#### 📝 Customization Tips
+##### 📝 Customization Tips
 
 - To add more internships, copy-paste the div with class `"card"`.
 - Change colors and fonts in the CSS file to suit your brand.
 - For actual deployment, update the button URLs for each internship.
 
-#### 🤔 Questions?
+##### 🤔 Questions?
 
 - If you have suggestions or want more features (logos, responsiveness, dark mode), open an issue or pull request!
