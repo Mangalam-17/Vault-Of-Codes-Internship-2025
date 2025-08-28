@@ -15,7 +15,6 @@ body {
   color: #222;
 }
 
-/* Logo styles */
 .logo {
   display: flex;
   align-items: center;
@@ -39,7 +38,6 @@ body {
   color: white;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   align-items: center;
@@ -50,7 +48,6 @@ body {
   border-bottom: 0.2px solid #fff;
 }
 
-/* Navigation links */
 nav ul {
   display: flex;
   gap: 1.8rem;
@@ -74,7 +71,6 @@ nav ul li a:hover {
   color: white;
 }
 
-/* Hero Section */
 .hero {
   position: relative;
   height: 60vh;
@@ -103,12 +99,12 @@ nav ul li a:hover {
   color: #fff;
   width: 100%;
   max-width: 800px;
-  margin: 0 4vw 0 auto; /* Aligns block to right with some padding */
-  padding: 0 2vw 0 0; /* Right padding, no left padding */
-  text-align: right; /* All inner text aligns right */
+  margin: 0 4vw 0 auto;
+  padding: 0 2vw 0 0;
+  text-align: right;
   display: flex;
   flex-direction: column;
-  align-items: flex-end; /* Aligns all content to right */
+  align-items: flex-end;
   justify-content: center;
 }
 
@@ -170,7 +166,6 @@ nav ul li a:hover {
   border-color: #e63946;
 }
 
-/* Strategy Section */
 .strategy-section {
   color: #111;
   max-width: 900px;
@@ -192,7 +187,6 @@ nav ul li a:hover {
   margin-bottom: 0;
 }
 
-/* Services Section */
 .services-section {
   background: #fff;
   padding: 2rem 0 3rem 0;
@@ -272,7 +266,6 @@ nav ul li a:hover {
   }
 }
 
-/* Portfolio Section */
 .portfolio-section {
   padding: 2.8rem 0 2rem 0;
   background: #fafafa;
@@ -338,7 +331,6 @@ nav ul li a:hover {
   }
 }
 
-/* Contact Form Section */
 .contact-section {
   max-width: 440px;
   margin: 0 auto 2.5rem auto;
@@ -376,7 +368,6 @@ nav ul li a:hover {
   background: #c9243a;
 }
 
-/* Footer */
 .footer,
 footer.footer {
   background: #181818;
@@ -388,7 +379,6 @@ footer.footer {
   border-bottom: 0.2px solid #fff;
 }
 
-/* Lightbox */
 .lightbox {
   position: fixed;
   left: 0;

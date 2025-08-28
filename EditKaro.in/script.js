@@ -1,4 +1,3 @@
-// VIDEO LIGHTBOX FUNCTIONALITY
 const videoThumbs = document.querySelectorAll(".video-thumb");
 const lightbox = document.createElement("div");
 const lightboxVideo = document.createElement("video");
@@ -52,7 +51,6 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-// SMOOTH SCROLLING FOR NAVIGATION LINKS
 document.querySelectorAll('nav a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", (e) => {
     e.preventDefault();
@@ -62,7 +60,6 @@ document.querySelectorAll('nav a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// BASIC CONTACT FORM VALIDATION
 const form = document.getElementById("contact-form");
 if (form) {
   form.addEventListener("submit", (e) => {
@@ -84,7 +81,6 @@ if (form) {
   });
 }
 
-// DYNAMIC YEAR IN FOOTER
 window.addEventListener("DOMContentLoaded", () => {
   const yearSpan = document.getElementById("year");
   if (yearSpan) {
@@ -92,10 +88,8 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-// Select all internal anchor links starting with #
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
-    // Only trigger if the href links to an element available on the page
     const target = document.querySelector(this.getAttribute("href"));
     if (target) {
       e.preventDefault();

@@ -1,5 +1,7 @@
 ## 🚀Editkaro.in - An interactive and dynamic portfolio website
 
+#### Live Link - https://mangalam-17.github.io/EditKaro.in/index.html
+
 ### 📖Description
 
 Editkaro.in is a responsive static website designed to showcase the services offered by Editkaro, a leading digital marketing agency in Los Angeles. The website is built using HTML, CSS, and JavaScript, and is optimized for search engines to improve its visibility and ranking. The website features a clean and modern design, with easy navigation and a user-friendly interface.
@@ -69,7 +71,7 @@ To test the website, follow these steps:
 
 ### 📸Preview
 
- Home Page
+Home Page
 
 ![Home Page](https://github.com/Mangalam-17/EditKaro.in/blob/dba4f9182ceeecc9ccb8f89d7983e7c697e1ba10/Image_Preview/HomePage.png)
 
@@ -116,7 +118,6 @@ To test the website, follow these steps:
 ##### Contact
 
 ![Contact](https://github.com/Mangalam-17/EditKaro.in/blob/a87604ddb5db6db495e1fc387a1e8f8049bf0cbb/Image_Preview/contact.png)
-
 
 ### 👤Author
 

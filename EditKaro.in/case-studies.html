@@ -50,9 +50,8 @@
         background-color: #e63946;
       }
 
-      /* Main content styles */
       .main-content {
-        flex: 1 0 auto; /* This pushes the footer to the bottom when content is small */
+        flex: 1 0 auto;
         max-width: 1200px;
         margin: 0 auto;
         padding: 4.5rem 2vw 2.5rem;
@@ -68,19 +67,16 @@
         margin-bottom: 2.2rem;
       }
 
-      /* -------- ADJUST THIS SECTION -------- */
-      /* Change from grid to flex for horizontal cards */
       .cards-grid {
         display: flex;
-        flex-direction: row; /* Make cards align horizontally */
+        flex-direction: row;
         gap: 2.5rem;
         width: 100%;
-        justify-content: center; /* Center horizontally */
+        justify-content: center;
         align-items: stretch;
-        flex-wrap: wrap; /* RESPONSIVE: allow wrap on small screens */
+        flex-wrap: wrap;
       }
 
-      /* Card styles remain the same */
       .card {
         background: #fff;
         border-radius: 18px;
@@ -94,7 +90,7 @@
           transform 0.23s;
         cursor: pointer;
         border: 1px solid #eee;
-        margin-bottom: 0; /* Remove bottom margin so cards line up nicely */
+        margin-bottom: 0;
       }
       .card img {
         width: 100%;
@@ -134,9 +130,8 @@
         padding: 1.5rem 0;
         letter-spacing: 0.013em;
         margin-top: 0;
-        /* No need for absolute or fixed positioning */
       }
-      /* RESPONSIVENESS - stack cards on mobile */
+
       @media (max-width: 900px) {
         .main-content {
           padding: 3rem 1vw;
