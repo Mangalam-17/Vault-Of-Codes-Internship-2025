@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Social Media Management | Editkaro.in</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", "Segoe UI", Arial, sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: #181818;
+        color: #fff;
+      }
+      .main-header {
+        background: #181818;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 3vw;
+      }
+      nav ul {
+        display: flex;
+        gap: 1.8rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.3rem 0.6rem;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+      }
+      nav ul li a.active,
+      nav ul li a:hover {
+        background-color: #e63946;
+      }
+
+      /* Main content styles */
+      .main-content {
+        flex: 1 0 auto; /* This pushes the footer to the bottom when content is small */
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 4.5rem 2vw 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 50vh;
+      }
+      .content-title {
+        font-size: 2.7rem;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 2.2rem;
+      }
+
+      /* -------- ADJUST THIS SECTION -------- */
+      /* Change from grid to flex for horizontal cards */
+      .cards-grid {
+        display: flex;
+        flex-direction: row; /* Make cards align horizontally */
+        gap: 2.5rem;
+        width: 100%;
+        justify-content: center; /* Center horizontally */
+        align-items: stretch;
+        flex-wrap: wrap; /* RESPONSIVE: allow wrap on small screens */
+      }
+
+      /* Card styles remain the same */
+      .card {
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 5px 24px rgba(0, 0, 0, 0.05);
+        overflow: hidden;
+        max-width: 370px;
+        width: 100%;
+        text-align: center;
+        transition:
+          box-shadow 0.23s,
+          transform 0.23s;
+        cursor: pointer;
+        border: 1px solid #eee;
+        margin-bottom: 0; /* Remove bottom margin so cards line up nicely */
+      }
+      .card img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        display: block;
+        border-radius: 15px 15px 0 0;
+        transition: filter 0.22s;
+        filter: grayscale(1);
+      }
+      .card-title {
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: #181818;
+        margin-top: 1.2rem;
+        margin-bottom: 0.4rem;
+      }
+      .card-desc {
+        font-size: 0.97rem;
+        color: #b3b3b3;
+        margin-bottom: 1.1rem;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      .card:hover {
+        box-shadow: 0 18px 32px rgba(230, 57, 70, 0.15);
+        transform: translateY(-6px) scale(1.03);
+      }
+      .card:hover img {
+        filter: grayscale(0.1) brightness(0.96);
+      }
+      .footer {
+        background: #181818;
+        color: #fff;
+        text-align: center;
+        font-size: 1.07rem;
+        padding: 1.5rem 0;
+        letter-spacing: 0.013em;
+        margin-top: 0;
+        /* No need for absolute or fixed positioning */
+      }
+      /* RESPONSIVENESS - stack cards on mobile */
+      @media (max-width: 900px) {
+        .main-content {
+          padding: 3rem 1vw;
+        }
+        .cards-grid {
+          flex-direction: column;
+          gap: 2.3rem 0;
+          align-items: center;
+        }
+        .logo-text {
+          font-size: 1.07rem;
+        }
+        nav ul {
+          gap: 1.06rem;
+        }
+      }
+      .footer {
+        background: #181818;
+        color: #fff;
+        text-align: center;
+        padding: 1.5rem 0;
+        font-size: 1.07rem;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="navbar">
+        <div class="logo">
+          <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="15" fill="#e63946" />
+            <text
+              x="16"
+              y="22"
+              text-anchor="middle"
+              font-size="17"
+              fill="#fff"
+              font-family="Segoe UI"
+              font-weight="bold"
+            >
+              E
+            </text>
+          </svg>
+          <span style="margin-left: 0.4rem; font-weight: 700; font-size: 1.2rem"
+            ><a href="index.html" style="color: #fff; text-decoration: none"
+              >Editkaro.in</a
+            ></span
+          >
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="social-media-management.html">Social Media Management</a>
+            </li>
+            <li><a href="ppc.html">PPC</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="seo.html">SEO</a></li>
+            <li><a href="web-design.html">Web Design</a></li>
+            <li><a href="case-studies.html" class="active">Case Studies</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <div class="content-title">Case Studies</div>
+      <div class="cards-grid">
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"
+            alt="Thrive Societe"
+          />
+          <div class="card-title">Thrive Societe</div>
+          <div class="card-desc">Social Media, Facebook Ads & Website</div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.pexels.com/photos/1707828/pexels-photo-1707828.jpeg"
+            alt="American Needle"
+          />
+          <div class="card-title">American Needle</div>
+          <div class="card-desc">Social Media & Photography</div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      © 2025 Editkaro.in - Social Media & Video Marketing Agency
+    </footer>
+  </body>
+</html>

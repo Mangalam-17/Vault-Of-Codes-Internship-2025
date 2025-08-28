@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Social Media Photography & Video | Editkaro.in</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: #181818;
+        color: #fff;
+      }
+      .main-header {
+        background: #181818;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 3vw;
+      }
+      nav ul {
+        display: flex;
+        gap: 1.8rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.3rem 0.6rem;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+      }
+      nav ul li a.active,
+      nav ul li a:hover {
+        background-color: #e63946;
+      }
+      .hero-bg {
+        flex: 1;
+        min-height: 67vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url("https://images.pexels.com/photos/1482066/pexels-photo-1482066.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        text-align: center;
+      }
+      .hero-bg::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(20, 20, 20, 0.57); /* Overlay */
+        z-index: 1;
+      }
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 900px;
+        margin-top: 7vh;
+      }
+      .hero-content h1 {
+        font-size: 3.3rem;
+        font-weight: 900;
+        margin-bottom: 1.1rem;
+        margin-top: 0;
+        line-height: 1.06;
+      }
+      .hero-content p {
+        font-size: 1.24rem;
+        font-weight: 400;
+        margin-bottom: 2.2rem;
+        line-height: 1.5;
+      }
+      .cta-btn {
+        display: inline-block;
+        background: #fff;
+        color: #181818;
+        font-weight: 700;
+        font-size: 1.14rem;
+        border: none;
+        border-radius: 8px;
+        padding: 1rem 2.3rem;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.12);
+        letter-spacing: 0.02em;
+        transition:
+          background 0.18s,
+          color 0.18s;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .cta-btn:hover {
+        background: #e63946;
+        color: #fff;
+      }
+      .footer {
+        background: #181818;
+        color: #fff;
+        text-align: center;
+        padding: 1.5rem 0;
+        font-size: 1.07rem;
+        margin-top: 0;
+      }
+      @media (max-width: 900px) {
+        .hero-content h1 {
+          font-size: 2rem;
+        }
+      }
+      @media (max-width: 600px) {
+        .hero-bg {
+          padding: 2vh 0.8rem;
+        }
+        .hero-content h1 {
+          font-size: 1.2rem;
+        }
+        .hero-content {
+          margin-top: 1.5vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="navbar">
+        <div class="logo">
+          <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="15" fill="#e63946" />
+            <text
+              x="16"
+              y="22"
+              text-anchor="middle"
+              font-size="17"
+              fill="#fff"
+              font-family="Segoe UI"
+              font-weight="bold"
+            >
+              E
+            </text>
+          </svg>
+          <span style="margin-left: 0.4rem; font-weight: 700; font-size: 1.2rem"
+            ><a href="index.html" style="color: #fff; text-decoration: none"
+              >Editkaro.in</a
+            ></span
+          >
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="social-media-management.html">Social Media Management</a>
+            </li>
+            <li><a href="ppc.html">PPC</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="seo.html">SEO</a></li>
+            <li><a href="web-design.html">Web Design</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-bg">
+      <div class="hero-content">
+        <h1>Social Media Photography &<br />Video</h1>
+        <p>
+          Bringing your story to life with creative photography and professional
+          video editing for social media success.
+        </p>
+        <a href="#portfolio" class="cta-btn">See Portfolio</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © 2025 Editkaro.in - Social Media & Video Marketing Agency
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Social Media Management | Editkaro.in</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", "Segoe UI", Arial, sans-serif;
+      }
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: #181818;
+        color: #fff;
+      }
+      .main-header {
+        background: #181818;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 3vw;
+      }
+      nav ul {
+        display: flex;
+        gap: 1.8rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 0.3rem 0.6rem;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+      }
+      nav ul li a.active,
+      nav ul li a:hover {
+        background-color: #e63946;
+      }
+
+      .hero-split-bg {
+        flex: 1;
+        min-height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("https://images.pexels.com/photos/40656/pexels-photo-40656.jpeg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+      }
+      .hero-split-bg::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(20, 20, 20, 0.64);
+        z-index: 1;
+      }
+      .split-inner {
+        display: flex;
+        gap: 4vw;
+        max-width: 1200px;
+        width: 100%;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        padding: 7vh 2vw;
+      }
+      .split-left {
+        flex: 1.2;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 570px;
+      }
+      .split-left h1 {
+        font-size: 3.1rem;
+        font-weight: 900;
+        margin-bottom: 1.4rem;
+        margin-top: 0;
+        line-height: 1.04;
+      }
+      .split-left p {
+        font-size: 1.22rem;
+        line-height: 1.6;
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      .split-right {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-width: 350px;
+      }
+      .proposal-form {
+        background: #fff;
+        border-radius: 22px;
+        padding: 2.7rem 2rem;
+        width: 370px;
+        max-width: 95vw;
+        box-shadow: 0 14px 34px rgba(0, 0, 0, 0.12);
+        margin: 0;
+      }
+      .proposal-form h2 {
+        text-align: center;
+        color: #181818;
+        font-size: 1.23rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        letter-spacing: 0.01em;
+      }
+      .proposal-form .form-row {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 1rem;
+      }
+      .proposal-form input,
+      .proposal-form textarea {
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 0.92rem 0.7rem;
+        border: none;
+        background: #e9e9e9;
+        border-radius: 7px;
+        font-size: 1.07rem;
+      }
+      .proposal-form textarea {
+        min-height: 65px;
+      }
+      .proposal-form button {
+        width: 100%;
+        padding: 0.98rem 0;
+        background: #181818;
+        color: #fff;
+        font-size: 1.16rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 7px;
+        margin-top: 0.1rem;
+        cursor: pointer;
+        transition: background 0.18s;
+      }
+      .proposal-form button:hover {
+        background: #e63946;
+      }
+      .footer {
+        background: #181818;
+        color: #fff;
+        text-align: center;
+        padding: 1.5rem 0;
+        font-size: 1.07rem;
+        margin-top: 0;
+      }
+      @media (max-width: 980px) {
+        .split-inner {
+          flex-direction: column;
+          gap: 2.5rem;
+          padding: 5vh 1vw;
+          align-items: stretch;
+        }
+        .split-left,
+        .split-right {
+          width: 100%;
+          max-width: 98vw;
+        }
+        .split-left h1 {
+          font-size: 2rem;
+        }
+      }
+      @media (max-width: 600px) {
+        .proposal-form {
+          padding: 1.4rem 0.6rem;
+        }
+        .split-left h1 {
+          font-size: 1.12rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="navbar">
+        <div class="logo">
+          <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="15" fill="#e63946" />
+            <text
+              x="16"
+              y="22"
+              text-anchor="middle"
+              font-size="17"
+              fill="#fff"
+              font-family="Segoe UI"
+              font-weight="bold"
+            >
+              E
+            </text>
+          </svg>
+          <span style="margin-left: 0.4rem; font-weight: 700; font-size: 1.2rem"
+            ><a href="index.html" style="color: #fff; text-decoration: none"
+              >Editkaro.in</a
+            ></span
+          >
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="social-media-management.html" class="active"
+                >Social Media Management</a
+              >
+            </li>
+            <li><a href="ppc.html">PPC</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="seo.html">SEO</a></li>
+            <li><a href="web-design.html">Web Design</a></li>
+            <li><a href="case-studies.html">Case Studies</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-split-bg">
+      <div class="split-inner">
+        <div class="split-left">
+          <h1>Social Media Management</h1>
+          <p>
+            Get help from one of the top social media management agencies. Our
+            team of social media managers can bring out the best in your brand.
+            We manage social media channels to get followers, likes, and
+            engagement, across social networks.
+          </p>
+        </div>
+        <div class="split-right">
+          <form class="proposal-form">
+            <h2>GET A CUSTOM PROPOSAL</h2>
+            <div class="form-row">
+              <input type="text" placeholder="First Name" required />
+              <input type="text" placeholder="Last Name" required />
+            </div>
+            <input type="text" placeholder="Business Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="text" placeholder="Phone Number" required />
+            <textarea placeholder="Tell us about your projects"></textarea>
+            <button type="submit">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      © 2025 Editkaro.in - Social Media & Video Marketing Agency
+    </footer>
+  </body>
+</html>
